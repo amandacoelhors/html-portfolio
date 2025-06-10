@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+}
+
+#capa {
+    border: #939291 double 10px;
+}
+
+#titulo1 {
+    color:#939291;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    }
+
+#embaixoh11 {
+    color: #bab8b7;
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+#embaixoh12 {
+    font-family:"Chakra Petch", sans-serif;
+    font-weight: 300;
+   font-style: normal;
+   color: #bab8b7;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.initial {
+    text-align: center;
+    margin-bottom: 50px;
+        }
+
+.botton {
+    display: inline-block;
+    padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 10px; /* Optional: space between boxes */
+}
+
+.box {
+  padding: 20px;
+}
+
+.box1 {
+    font-family:"Chakra Petch", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    background-color: black;
+    color: #bab8b7;
+    padding: 10px;
+    padding-top: 25%;
+    text-align: center;
+}
+
+.box2 {
+  background-color: black;
+  border: 1px solid #939291;
+}
+
+.session {
+    border: 1px solid #939291;
+    font-family:"Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style:b ;
+   color: #939291;
+   text-align: center;
+}
+
+.descricao {
+    font-family:"Chakra Petch", sans-serif;
+    font-weight: 300;
+   font-style: normal;
+   color: #bab8b7;
+}
+
+.boxcontact {
+    border: 1px solid #939291;
+    margin-top: 200px;
+}
+
+.titulo3 {
+    font-family:"Chakra Petch", sans-serif;
+    font-size: 30px;
+   font-style: normal;
+   color: #6c6c6b;
+   text-align: center;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #333333; 
+  margin: 40px 0px;
+}
+
+.contacttext {
+    font-family:"Chakra Petch", sans-serif;
+    font-weight: 300;
+   font-style: normal;
+   color: #939291;
+   text-align: center;
+}
+
+

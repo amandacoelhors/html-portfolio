@@ -1,41 +1,53 @@
+<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amanda | Developer in Progress</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <style>
-body {background-color:#FDF5E6; font-family: Verdana, Geneva, Tahoma, sans-serif;}
-h1   {color:#8B4513;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
-p    {color:#8B4513;}
-</style>
-    
-    <h1 style="text-align:center;"> Amanda | Developer in Progress</h1>
-    <p style="color: #8B4513; text-align:center">
-        <i>Starting My Journey as a Programmer</i> </p>
-    
-    <p style="text-align:center; background: linear-gradient(to bottom, #ffffff 0%, #996633 100%)">
-        Here you will find information about my personal life and my journey as a web developer.
-        <br /> <a href="./public/mylife.html"> My Life </a> &#10084; <a href="./public/mycareer.html"> My Career </a> &#10084; <a href="./public/whereimnow.html"> Where I'm Now </a>
-    </p>
-    <br/>
-        <h2 style="color: #835a34;"> Learning to Code: My First Steps </h2>
-        <h3 style="color: #a3804cb0;"> &#128187 HTML </h3> 
-        <ul>
-            <li style="color: #552c03;"> <b>27/05/2025 to 03/06/2026</b> 
-                <br /><i>My first session in the course was all about the basics of HTML — and here you’ll find what I learned and built along the way!</i>
-                <br /> <a href="./public/htmlpage.html">Click here</a> 
-            </li>
-        </ul>
-    <hr />
-    <p style="text-align: center;">
-        If you liked this project and want to share some feedback or get in touch for future collaborations, you can find me here:
-        <ul>
-            <li> <a href="mailto:amandacoelhors@gmail.com">Email</a></li>
-            <li> <a href="./public/phonenumber.html"> Phone Number</a> </li> 
-        </ul>
-    </p>
+    <div id="capa"> <img src="./assets/images/capa.jpg.png" width="100%" alt="photocapa"> </div>
+    <div id=titulo1> Amanda | Developer in Progress </div>
+    <div id=embaixoh11> Starting My Journey as a Programmer </div>
+    <div id=embaixoh12> Here you will find information about my personal life and my journey as a web developer. </div>
+    <div class="initial"> 
+        <div class="botton"> <a href="./public/mylife.html"> My Life </a> </div> 
+        <div class="botton"> <a href="./public/mycareer.html"> My Career </a> </div> 
+        <div class="botton"> <a href="./public/whereimnow.html"> Where I'm Now </a> </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="box box1"> Learning to Code - My First Steps </div>
+        <div class="box box2">
+            <div class="session"> &#128187 HTML </div>
+                <ul>
+                    <li class="descricao"> <b>27/05/2025 to 03/06/2026</b> 
+                 <br /><i>My first session in the course was all about the basics of HTML — and here you’ll find what I learned and built along the way!</i>
+                    <br /> <a href="./public/htmlpage.html">Click here</a> 
+                </li>
+            </ul>
+        <div class="session"> &#128187 CSS </div>
+            <ul>
+                <li class="descricao"> <b>04/06/2025 to 09/06/2026</b>
+                    <br /><i>After learning the basics of HTML, I started exploring CSS — the language that brings style and design to web pages. Here you’ll see how my webpage looked on 03/06 and how it keeps improving as I learn more!</i>
+                    <br /> <a href="./public/csspage.html"> Click here</a>
+            </ul>  
+        </div>
+    </div> 
+
+    <div class="boxcontact">
+        <div class="titulo3"> Contact me </div>
+            <div class="contacttext">
+    If you liked this project and want to share some feedback or get in touch for future collaborations, you can find me here:
+            <div> &#128231; <a href="mailto:amandacoelhors@gmail.com"> Email</a> </div>
+            <div> &#x1F4DE; <a href="./public/phonenumber.html"> Phone Number</a> </div> 
+            </div>
+    </div>
       </body>
 </html>
