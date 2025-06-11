@@ -38,6 +38,7 @@ p {
 
 .botton {
     display: inline-block;
+    margin-inline: 10px;
 }
 
 .grid-container {
@@ -67,41 +68,26 @@ p {
 }
 
 .session {
-    border: 1px solid #939291;
-    font-family:"Chakra Petch", sans-serif;
-    font-weight: 300;
-    font-style:normal;
+   border: 1px solid #939291;
+   font-family:"Chakra Petch", sans-serif;
+   font-weight: 300;
+   font-style:normal;
    color: black;
    text-align: center;
    background-color: #939291;
 }
 
 .descricao {
-    font-family:"Chakra Petch", sans-serif;
-    font-weight: 300;
+   font-family:"Chakra Petch", sans-serif;
+   font-weight: 300;
    font-style: normal;
    color: #bab8b7;
 }
 
 .boxcontact {
-    border: 1px solid #939291;
-    margin-top: 100px;
-}
-
-.boxcontact ul {
-    text-align: center;
-}
-
-.titulo3 {
-    font-family:"Chakra Petch", sans-serif;
-    font-size: 30px;
-   font-style: normal;
-   color: #6c6c6b;
+   border: 1px solid #939291;
+   margin-top: 100px;
    text-align: center;
-}
-
-
-.contacttext {
    font-family:"Chakra Petch", sans-serif;
    font-weight: 300;
    font-style: normal;
@@ -109,4 +95,8 @@ p {
    text-align: center;
 }
 
+.boxcontact > h3 {
+   color: #6c6c6b;
+   font-size: 25px;
+}
 
