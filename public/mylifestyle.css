@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color:#939291;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+    }
+
+p {
+    font-family:"Chakra Petch", sans-serif;
+    font-weight: 300;
+   font-style: normal;
+   color: #bab8b7;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 100%;
+}
+
+.box {
+  border: 1px solid #bab8b7;
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 24px;
+  color: #bab8b7;
+  padding: 15px;
+  font-family:"Chakra Petch", sans-serif;
+  font-style: normal;
+}
+
+.img-box {
+  width: 100%;
+  height: 200px;
+  max-width: 170px;
+}
+
+#lastparagraph {
+    margin-top: 80px;
+    background-color: #939291;
+    margin-bottom: 0px;
+    color: black;
+}
