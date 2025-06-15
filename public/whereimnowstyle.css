@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color:#939291;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+    }
+
+p {
+    font-family:"Chakra Petch", sans-serif;
+    font-weight: 300;
+   font-style: normal;
+   color: #bab8b7;
+   text-align: center;
+   margin-bottom: 20px;
+}
